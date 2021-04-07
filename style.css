@@ -1,7 +1,145 @@
-#menu
-{
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body{
+	font-family: montserrat;
+}
+
+nav{
 	position: fixed;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 80px;
+	background: #0082e6;
 }
+
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold; 
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding:  7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+
+a.active,a:hover{
+	background: #1b9bff;
+	transition: .5s;
+
+}
+
+image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  p{
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #444;
+	width: 50%;
+	float: right;
+  }
+
+  h1.grandpaHestory{
+	  	font-family: times, Times New Roman, times-roman, georgia, serif;
+		font-size: 28px;
+		line-height: 40px;
+		letter-spacing: -1px;color: #444;
+		
+  }
+
+  .center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 3%;
+  }
+
+  table {
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  th, td {
+	text-align: left;
+	padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=email], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+
+  input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+
+  input[type=reset] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=reset]:hover {
+	background-color: #45a049;
+  }
+
+
+  
